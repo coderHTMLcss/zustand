@@ -1,10 +1,7 @@
-import React from 'react'
-
+import ExpenseTracker from './components/ExpenseTracker'
 const App = () => {
   return (
-    <div className='text-blue-900 font-bold'>
-      Hello
-    </div>
+    <ExpenseTracker />
   )
 }
 
