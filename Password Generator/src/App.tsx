@@ -1,11 +1,11 @@
-import React from 'react'
+import PasswordGenerator from './components/PasswordGenerator'
 
 const App = () => {
   return (
-    <div className='text-amber-950 font-bold text-4xl'>
-      Password Generator
+    <div className='min-h-screen flex items-center justify-center bg-gray-100'>
+      <PasswordGenerator />
     </div>
   )
 }
 
-export default App
+export default App;
